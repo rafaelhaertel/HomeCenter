@@ -1,0 +1,107 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:31
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+[class^="flaticon-lg"]:before, [class*=" flaticon-lg"]:before,
+[class^="flaticon-lg"]:after, [class*=" flaticon-lg"]:after {   
+  font-family: Flaticon;
+        font-size: 60px;
+font-style: normal;
+margin-left: 20px;
+}
+
+[class^="flaticon-xg"]:before, [class*=" flaticon-xg"]:before,
+[class^="flaticon-xg"]:after, [class*=" flaticon-xg"]:after {   
+  font-family: Flaticon;
+        font-size: 200px;
+font-style: normal;
+margin-left: 0px;
+}
+
+@media (min-width: 375px) {
+  [class^="flaticon-xg"]:before, [class*=" flaticon-xg"]:before,
+  [class^="flaticon-xg"]:after, [class*=" flaticon-xg"]:after {   
+    font-family: Flaticon;
+          font-size: 100px;
+  font-style: normal;
+  margin-left: 0px;
+  }
+}
+
+.flaticon-alarm:before { content: "\f100"; }
+.flaticon-cctv:before { content: "\f101"; }
+.flaticon-cctv-1:before { content: "\f102"; }
+.flaticon-coffee-maker:before { content: "\f103"; }
+.flaticon-door-key:before { content: "\f104"; }
+.flaticon-door-key-1:before { content: "\f105"; }
+.flaticon-fire-alarm:before { content: "\f106"; }
+.flaticon-fire-alarm-1:before { content: "\f107"; }
+.flaticon-furniture:before { content: "\f108"; }
+.flaticon-garbage:before { content: "\f109"; }
+.flaticon-home:before { content: "\f10a"; }
+.flaticon-hood:before { content: "\f10b"; }
+.flaticon-house:before { content: "\f10c"; }
+.flaticon-house-1:before { content: "\f10d"; }
+.flaticon-house-2:before { content: "\f10e"; }
+.flaticon-laptop:before { content: "\f10f"; }
+.flaticon-light:before { content: "\f110"; }
+.flaticon-light-bulb:before { content: "\f111"; }
+.flaticon-panel:before { content: "\f112"; }
+.flaticon-parking:before { content: "\f113"; }
+.flaticon-recycle:before { content: "\f114"; }
+.flaticon-remote-control:before { content: "\f115"; }
+.flaticon-remote-control-1:before { content: "\f116"; }
+.flaticon-remote-control-2:before { content: "\f117"; }
+.flaticon-remote-control-3:before { content: "\f118"; }
+.flaticon-smart-home:before { content: "\f119"; }
+.flaticon-smart-home-1:before { content: "\f11a"; }
+.flaticon-smart-home-2:before { content: "\f11b"; }
+.flaticon-smart-home-3:before { content: "\f11c"; }
+.flaticon-smart-home-4:before { content: "\f11d"; }
+.flaticon-smart-home-5:before { content: "\f11e"; }
+.flaticon-smart-home-6:before { content: "\f11f"; }
+.flaticon-smart-home-7:before { content: "\f120"; }
+.flaticon-smart-home-8:before { content: "\f121"; }
+.flaticon-smart-home-9:before { content: "\f122"; }
+.flaticon-smartphone:before { content: "\f123"; }
+.flaticon-smartphone-1:before { content: "\f124"; }
+.flaticon-smartphone-2:before { content: "\f125"; }
+.flaticon-smartphone-3:before { content: "\f126"; }
+.flaticon-smartwatch:before { content: "\f127"; }
+.flaticon-socket:before { content: "\f128"; }
+.flaticon-solar-energy:before { content: "\f129"; }
+.flaticon-television:before { content: "\f12a"; }
+.flaticon-thermostat:before { content: "\f12b"; }
+.flaticon-washing-machine:before { content: "\f12c"; }
+.flaticon-water:before { content: "\f12d"; }
+.flaticon-water-heater:before { content: "\f12e"; }
+.flaticon-water-tap:before { content: "\f12f"; }
+.flaticon-wifi:before { content: "\f130"; }
+.flaticon-window:before { content: "\f131"; }

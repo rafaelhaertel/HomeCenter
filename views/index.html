@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- iOS 6 & 7 iPad (retina, portrait) -->
+    <link href="/img/Default-750@2x~iphone6-portrait_750x1334.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: portrait)
+             and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+
+    <!-- iOS 6 & 7 iPad (retina, landscape) -->
+    <link href="/img/Default-750@2x~iphone6-portrait_750x1334.png"
+          media="(device-width: 750px) and (device-height: 1334px)
+             and (orientation: landscape)
+             and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+
+    <!-- iOS 6 iPad (portrait) -->
+    <link href="/img/Default-750@2x~iphone6-portrait_750x1334.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: portrait)
+             and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+
+    <!-- iOS 6 iPad (landscape) -->
+    <link href="/img/Default-750@2x~iphone6-portrait_750x1334.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: landscape)
+             and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+
+    <!-- iOS 6 & 7 iPhone 5 -->
+    <link href="/img/Default-750@2x~iphone6-portrait_750x1334.png"
+          media="(device-width: 320px) and (device-height: 568px)
+             and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+
+    <!-- iOS 6 & 7 iPhone (retina) -->
+    <link href="/img/Default-750@2x~iphone6-portrait_750x1334.png"
+          media="(device-width: 320px) and (device-height: 480px)
+             and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+
+    <!-- iOS 6 iPhone -->
+    <link href="/img/Default-750@2x~iphone6-portrait_750x1334.png"
+          media="(device-width: 320px) and (device-height: 480px)
+             and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+
+       <!-- iPhone 6 startup image -->
+   <link href="/img/Default-750@2x~iphone6-portrait_750x1334.png"
+         media="(device-width: 375px) and (device-height: 667px)
+                and (-webkit-device-pixel-ratio: 2)"
+         rel="apple-touch-startup-image">
+           <!-- iPhone 6 plus startup image -->
+   <link href="/img/Default-750@2x~iphone6-portrait_750x1334.png"
+         media="(device-width: 414px) and (device-height: 736px)
+                and (-webkit-device-pixel-ratio: 2)"
+         rel="apple-touch-startup-image">
+
+    <script src="lib/angular/angular.js"></script>  
+    <title>Home Center</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flaticon.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/6.4.3/rzslider.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/datetimepicker.css"/>
+  </head>
+  <body ng-cloak>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="centered" id="myNavbar">
+         <a href="/#"><i class="flaticon-smart-home-6 flaticon-lg"></i><h2 style="display: inline;">Home Center</h5></a>
+        </div>
+      </div>
+    </nav>
+    <div id="content" ng-view ng-cloak></div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/6.4.3/rzslider.min.js"></script> 
+    <script src="lib/angular/i18n/angular-locale_pt-br.js"></script>
+    <script src="lib/angular/angular-route.js"></script>
+    <script src="lib/angular/angular-animate.js"></script>
+    <script src="lib/angular/angular-cookies.js"></script>
+    <script src="lib/jquery-1.11.0.min.js"></script>
+    <script src="lib/ui-bootstrap-tpls-1.3.3.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/directives.js"></script>
+    <script src="js/controllers/ACController.js"></script>
+    <script src="js/controllers/MariACController.js"></script>
+    <script src="js/controllers/TVController.js"></script>
+    <script src="js/controllers/LightController.js"></script>
+  </body>
+</html>

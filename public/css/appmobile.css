@@ -1,0 +1,35 @@
+@import "msgrid.css";
+
+@media (max-width: 479px) {
+  .ng-scope.content {
+    margin: 0;
+  }
+  .patient {
+    margin: 0;
+    padding-bottom: 5px;
+  }
+  .pacientes {
+    padding: 5%           ;
+  }
+  .patient-bottom {
+    margin-bottom: 0;
+    padding-bottom: 10% !important;
+  }
+  .single-department {
+    padding-bottom: 70%;
+    padding-top: 10%;
+  }
+
+  .last-row {
+    display: inline-table;
+    margin-top: -1px;
+  }
+
+  .last-row a {
+    margin-top: 13px;
+  }
+
+  #header {
+    padding-top: 10px;
+  }
+}

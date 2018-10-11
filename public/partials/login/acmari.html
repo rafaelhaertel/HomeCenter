@@ -1,0 +1,64 @@
+<div class="tv tv-top centered">
+  <div class="navigation-buttons-top">
+    <!-- top -->
+    <div ng-click="turnOffAC();" onclick="" class="col-xs-4 col-md-4 col-lg-4 col-sm-4 text-center btn-ac-top">
+      <i class="fa fa-power-off" aria-hidden="true"></i>
+    </div>
+    <div ng-if="isOn" class="col-xs-4 col-md-4 col-lg-4 col-sm-4 text-center">
+      Ligado
+    </div>
+    <div ng-if="!isOn" class="col-xs-4 col-md-4 col-lg-4 col-sm-4 text-center">
+      Desligado
+    </div>
+    <div ng-init="getTemp()" class="col-xs-4 col-md-4 col-lg-4 col-sm-4 text-center">
+      Temperatura: {{temperatureNow}}°C
+    </div>
+  </div>
+</div>
+<div class="tv centered">
+  <div class="regular-buttons-ac">
+      <div class="auto-acmari">
+        <h5 class="col-xs-2"> Auto </h5>
+        <h2 ng-if="auto == true"><i class="fa fa-toggle-on active" ng-click="autoToggle();"></i></h2>
+        <h2 ng-if="auto == false"><i class="fa fa-toggle-on fa-rotate-180 inactive" ng-click="autoToggle();"></i></h2>
+      </div>
+      <div class="auto-acmari">
+        <a href="#/mariacsettings"><h3 style="margin-right: 3%"><i class="fa fa-cog pull-right"></i></h3></a>
+      </div>   
+    <div class="display col-xs-12">
+      <div ng-if="cool" class="col-xs-4 text-center hotcold-status">
+        <i style="color: #5fc7ff;" class="fa fa-snowflake-o" aria-hidden="true"></i>
+      </div>
+      <div ng-if="hot" class="col-xs-4 text-center hotcold-status">
+        <i style="color: #C51313" class="fa fa-sun-o" aria-hidden="true"></i>
+      </div>
+      <div ng-if="fan==2" class="col-xs-4 text-center">
+        <h5>Hi</h5>
+      </div>
+      <h1 class="col-xs-12 text-center">{{temperature}}</h1>
+    </div>
+    <div class="bottom-display">
+      <div ng-click="coolOn();" onclick="" style="text-shadow: 0 1px 0 #383838;" class="col-xs-4 btn-ac-top text-center ac-hotcold">
+        <i style="color: #5fc7ff;" class="fa fa-snowflake-o" aria-hidden="true"></i>
+      </div>
+      <div ng-click="increaseTemp();" onclick="" class="col-xs-4 btn-ac-middle-primary text-center">
+        <i class="fa fa-caret-up" aria-hidden="true"></i>
+      </div>
+      <div ng-click="hotOn();" onclick="" style="text-shadow: 0 1px 0 #383838;" class="col-xs-4 btn-ac-top text-center ac-hotcold">
+        <i style="color: #C51313" class="fa fa-sun-o" aria-hidden="true"></i>
+      </div>
+      <div class="col-xs-12 text-center">
+        
+      </div>
+      <div class="col-xs-4 text-center">
+
+      </div>
+      <div ng-click="decreaseTemp();" onclick="" class="col-xs-4 btn-ac-middle-primary text-center">
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
+      </div>
+      <div class="col-xs-4 text-center">
+        
+      </div>
+    </div>
+  </div>
+</div>

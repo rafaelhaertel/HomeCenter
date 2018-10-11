@@ -1,0 +1,237 @@
+.font-normal {
+	font-weight: normal;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+	.textHuge {
+		font-size: 110px;
+		line-height: normal;
+	}
+	.textxxLarge {
+		font-size: 60px;
+		line-height: normal;
+	}
+	.textxLarge {
+		font-size: 40px;
+		line-height: normal;
+	}
+	h3, .h3 {
+		font-size: 36px;
+		line-height: normal;
+	}
+	.textxxMedium {
+		font-size: 26px;
+		line-height: normal;
+	}
+	h4, .h4 {
+		font-size: 18px;
+		line-height: normal;
+	}
+	.textMedium {
+		font-size: 16px;
+		line-height: normal;
+	}
+	h5, .h5 {
+		font-size: 14px;
+		line-height: normal;
+	}
+	.textSmall {
+		font-size: 11px;
+		line-height: normal;
+	}
+	.textMini {
+		font-size: 9px;
+		line-height: normal;
+	}
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.textHuge {
+		font-size: 77px;
+		line-height: normal;
+	}
+	.textxxLarge {
+		font-size: 42px;
+		line-height: normal;
+	}
+	.textxLarge {
+		font-size: 28px;
+		line-height: normal;
+	}
+	h3, .h3 {
+		font-size: 26px;
+		line-height: normal;
+	}
+	.textxxMedium {
+		font-size: 18px;
+		line-height: normal;
+	}
+	h4, .h4 {
+		font-size: 16px;
+		line-height: normal;
+	}
+	.textMedium {
+		font-size: 14px;
+		line-height: normal;
+	}
+	h5, .h5 {
+		font-size: 12px;
+		line-height: normal;
+	}
+	.textSmall {
+		font-size: 11px;
+		line-height: normal;
+	}
+	.textMini {
+		font-size: 9px;
+		line-height: normal;
+	}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.textHuge {
+		font-size: 54px;
+		line-height: normal;
+	}
+	.textxxLarge {
+		font-size: 30px;
+		line-height: normal;
+	}
+	.textxLarge {
+		font-size: 22px;
+		line-height: normal;
+	}
+	h3, .h3 {
+		font-size: 18px;
+		line-height: normal;
+	}
+	.textxxMedium {
+		font-size: 16px;
+		line-height: normal;
+	}
+	h4, .h4 {
+		font-size: 14px;
+		line-height: normal;
+	}
+	.textMedium {
+		font-size: 12px;
+		line-height: normal;
+	}
+	h5, .h5 {
+		font-size: 12px;
+		line-height: normal;
+	}
+	.textSmall {
+		font-size: 11px;
+		line-height: normal;
+	}
+	.textMini {
+		font-size: 9px;
+		line-height: normal;
+	}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+	.textHuge {
+		font-size: 38px;
+		line-height: normal;
+	}
+	.textxxLarge {
+		font-size: 24px;
+		line-height: normal;
+	}
+	.textxLarge {
+		font-size: 22px;
+		line-height: normal;
+	}
+	h3, .h3 {
+		font-size: 18px;
+		line-height: normal;
+	}
+	.textxxMedium {
+		font-size: 16px;
+		line-height: normal;
+	}
+	h4, .h4 {
+		font-size: 14px;
+		line-height: normal;
+	}
+	.textMedium {
+		font-size: 12px;
+		line-height: normal;
+	}
+	h5, .h5 {
+		font-size: 12px;
+		line-height: normal;
+	}
+	.textSmall {
+		font-size: 11px;
+		line-height: normal;
+	}
+	.textMini {
+		font-size: 9px;
+		line-height: normal;
+	}
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+
+
+	.textHuge {
+		font-size: 32px;
+		line-height: normal;
+	}
+	.textxxLarge {
+		font-size: 22px;
+		line-height: normal;
+	}
+	.textxLarge {
+		font-size: 20px;
+		line-height: normal;
+	}
+	h3, .h3 {
+		font-size: 16px;
+		line-height: normal;
+	}
+	.textxxMedium {
+		font-size: 14px;
+		line-height: normal;
+	}
+	h4, .h4 {
+		font-size: 13px;
+		line-height: normal;
+	}
+	.textMedium {
+		font-size: 11px;
+		line-height: normal;
+	}
+	h5, .h5 {
+		font-size: 10px;
+		line-height: normal;
+	}
+	.textSmall {
+		font-size: 9px;
+		line-height: normal;
+	}
+	.textMini {
+		font-size: 8px;
+		line-height: normal;
+	}
+
+
+
+}

@@ -1,0 +1,14 @@
+<div class="tv centered">
+  <div class="regular-buttons-ac">
+    <div ng-init="getSettingsTemp()" class="auto-acmari">
+      <h5 class="col-xs-12 text-center">Temperatura Ideal</h5>
+      <rzslider rz-slider-model="slider.minValue"
+        rz-slider-high="slider.maxValue"
+        rz-slider-options="slider.options">          
+      </rzslider>
+    </div>
+    <div ng-click="setSettingsTemp();" onclick="" class="col-xs-4 col-md-4 col-lg-4 col-sm-4 text-center centered btn-ac-top">
+      Salvar
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<div class="auth col-md-6 col-sm-8 col-lg-4">
+  <h2>Registro</h2>
+  <div ng-show="error" class="alert alert-danger">{{errorMessage}}</div>
+  <form class="form" ng-submit="register()">
+    <div class="form-group">
+      Usuário
+      <input type="text" class="form-control" name="username" placeholder="Usuário" ng-model="registerForm.username" required>
+    </div>
+    <div class="form-group">
+      Senha
+        <input type="password" class="form-control" placeholder="Senha" name="password" ng-model="registerForm.password" required>
+      </div>
+      <div>
+        <button type="submit" class="btn btn-sm btn-primary" ng-disabled="disabled">Enviar</button>
+      </div>
+  </form>
+</div>
