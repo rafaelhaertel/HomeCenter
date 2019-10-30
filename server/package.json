@@ -15,7 +15,7 @@
     "cookie-parser": "^1.4.3",
     "debug": "^2.2.0",
     "ejs": "0.8.5",
-    "mongoose": "^4.4.5",
+    "mongoose": "^5.7.7",
     "express-session": "^1.14.0",
     "lirc_node": "^0.0.4",
     "node-dht-sensor": "0.0.33",
